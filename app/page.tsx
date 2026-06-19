@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navigations from "./components/nav";
 import Hero from "./components/hero";
+import Cards from "./components/cards";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       {/* MODAL */}
 
       {/* THE MAIN APPLICATION */}
-      <div className="relative">
+      <div className="relative text-white bg-[#17599F]">
 
         {/* NAVIGATION */}
         <Navigations></Navigations>
@@ -18,7 +19,11 @@ export default function Home() {
         {/* HERO SECTION */}
         <Hero></Hero>
 
+        {/* DESCRIPTION OF DIFFERENT TASKS */}
+        <Cards></Cards>
+
         {/* FOOTER */}
+
       </div>
     </>
 

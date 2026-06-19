@@ -10,12 +10,11 @@ const Hero = () => {
         width: '100vw',
         height: '100vh',
         background: '#17599F',
-        overflow: 'hidden',
         position: 'relative',
       }}
     >
         
-      <GradientBg></GradientBg>
+      {/* <GradientBg></GradientBg> */}
 
       <HeroContent></HeroContent>
     </div>
